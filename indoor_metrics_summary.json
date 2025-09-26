@@ -1,0 +1,50 @@
+{
+  "csv_parse": {
+    "alice": "ok:utf-8",
+    "bob": "ok:utf-8"
+  },
+  "pairs_after_clean": 2000,
+  "pearson_r": 0.8459308868623955,
+  "guardband": {
+    "mu": 34.3145,
+    "sd": 9.994427935104639,
+    "lo": 28.31784323893722,
+    "hi": 40.31115676106278,
+    "kept_count": 1029,
+    "kept_fraction": 0.5145,
+    "kdr_percent": 6.41399416909621,
+    "bits_per_probe": 0.5147573786893447,
+    "bits_per_second": 0.8504132231404958
+  },
+  "differential": {
+    "epsilon_db": 2.0,
+    "smooth_win": 4,
+    "lag": -1,
+    "bitsA_len": 352,
+    "bitsB_len": 352,
+    "kdr_percent": 5.681818181818182,
+    "bits_per_probe": 0.176088044022011,
+    "bits_per_second": 0.2909090909090909
+  },
+  "pre_bits_if_provided": {
+    "alice_len": 1029,
+    "bob_len": 1029,
+    "common_len": 1029,
+    "kdr_percent": 6.41399416909621
+  },
+  "ecc_expectation": {
+    "n": 15,
+    "t": 1,
+    "p_err_used": 0.0641399416909621,
+    "drop_prob_estimate": 0.2496918884852517,
+    "blocks_from_pre": 69,
+    "expected_final_blocks": 52,
+    "expected_final_bits": 780
+  },
+  "outputs": {
+    "summary_csv": "/home/dasam/Documents/Pendrive Plots Run/out/indoor_metrics_summary.csv",
+    "summary_json": "/home/dasam/Documents/Pendrive Plots Run/out/indoor_metrics_summary.json",
+    "rssi_vs_index_plot": "/home/dasam/Documents/Pendrive Plots Run/out/rssi_vs_index.png",
+    "rssi_scatter_plot": "/home/dasam/Documents/Pendrive Plots Run/out/rssi_scatter.png"
+  }
+}
